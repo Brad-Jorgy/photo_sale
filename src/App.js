@@ -1,22 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+
+
+var imagePath = "/Users/bradjorgensen/Code/photo_sale/src/bend.jpeg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={imagePath} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          hello world!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
